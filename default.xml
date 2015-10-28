@@ -553,4 +553,27 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
+<!-- OTTERX FILES 
+*************************** -->
+
+<!-- CM/otterx-device tree files -->
+  <project path="device/amazon/otterx" name="HashBang173/android_device_amazon_otterx" remote="github" revision="cm-13.0" />
+
+<!-- CM/slimpop-otterx/otter_common-device tree files -->
+  <project path="device/amazon/otter-common" name="HashBang173/android_device_amazon_otter-common" remote="github" revision="cm-13.0" />
+
+<!-- CM/omap4-device tree files -->
+  <project path="device/amazon/omap4-common" name="HashBang173/android_device_amazon_omap4-common" remote="github" revision="cm-13.0" />
+
+<!-- CM/slimpop otter-kernel -->
+<project path="kernel/amazon/otter-common" name="CyanogenMod/android_kernel_amazon_otter-common" remote="github" revision="cm-12.1" />
+
+
+
+<!-- MUPPETS VENDOR ADDITIONS
+**********************************************************************************************-->
+
+<!-- The Muppets-otter-vendor -->
+  <project path="vendor/amazon" name="TheMuppets/proprietary_vendor_amazon" remote="github" revision="cm-12.1" />
+
 </manifest>
